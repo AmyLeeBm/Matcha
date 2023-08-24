@@ -1,0 +1,138 @@
+/*selectores son 3 el nombre del elemento, id y class */
+/* selector con el nombre del elemento  
+header {
+
+    background: red;
+}
+*/
+
+/* selector con el id 
+
+#header {
+
+    background: blue;
+}
+*/
+
+/* selector por class 
+
+.header {
+    background: purple;
+}
+
+
+
+ width: 100% ;
+ height: 500px ;
+ /* margin-top: 50px  ;
+ margin-bottom: 100px;
+ margin-left: 60px;
+ margin-right: 60px; */
+/*        top   r    b     l  tanto margin como padding*/
+
+ /* se aplica 50 al tp y al botm y 10 a r y l  */
+ /* todas las areas */
+ 
+
+
+
+/* investigar e intentar dejar los margenes del header como esta en matcha, en caso de ser necesario, investigar los displays */
+/* que es un display, que es dispolay inline, display block */
+
+.header{
+    display: inline;
+    height: 45px;
+    font-family: sans-serif;
+    align-items: center;
+    
+}
+
+.navBox{
+    display: inline-table;
+    color: #025157;
+    font-size: 14px;
+
+}
+
+.frTrial {
+    display: inline-table;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.button {
+    display: inline-table;
+
+}
+
+.features > article {
+
+    width: 200px;
+    height: 200px;
+    background: #025157;
+    margin: 10px;
+
+}
+
+/*  @media {breakpoint} { 
+
+}
+*/
+@media {max-width: 1475px;} {
+
+    body {
+
+        background-color: yellow;
+    }
+
+}
+
+
+@media {max-width: 975px;} {
+
+    body {
+
+        background-color: red;
+    }
+
+}
+
+@media {max-width: 575px;} {
+
+    body {
+
+        background-color: blue;
+    }
+
+}
+
+@media {max-width: 375px;} {
+
+    body {
+
+        background-color: violet;
+    }
+
+}
+
+.main {
+
+    width: 575px;
+    background-color: aqua;
+    margin: auto 50px;
+    align-items: center;
+}
+
+main < img {
+    width: 300px
+    height: 300px
+
+}
+
+.article {
+    width: 70%;
+}
