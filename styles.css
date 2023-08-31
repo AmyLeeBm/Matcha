@@ -39,100 +39,206 @@ header {
 /* investigar e intentar dejar los margenes del header como esta en matcha, en caso de ser necesario, investigar los displays */
 /* que es un display, que es dispolay inline, display block */
 
-.header{
-    display: inline;
+body{
+    background-color: #fffbf7;
+}
+
+.action button {
+    background-color: #67b54b;
+    color: white;
+    border: none;
+    border-radius: 5px 5px;
+    padding: 15px 10px;
+}
+
+.logo {
+  width: 15%;
+}
+
+.logo>img {
+  width: 15%;
+}
+
+.navbar {
+    width: 100%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+    background-color: #fffbf7;
+}
+
+.container-fluid {
+    text-align: left;
+}
+
+.navbar-light .nav-item .nav-link {
+  color: #025157;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: #025157;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(3, 81, 77)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.publi {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+main {
+    margin: 300px 10px 20px;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+main h1 {
+  font-family: 'Alegreya', serif;
+  font-size: 60px;
+  margin-bottom: 24px;
+}
+
+main .sub p {
+  font-family:'Slabo 27px', serif;
+  font-size: 20px;
+}
+
+.Try button{
+  border: 1px solid #025157;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #025157;
+  align-items: center;
+  color: white;
+  margin-left: -10px;
+  padding: 6px 20px;
+}
+
+.Try input {
+  padding: 6px 20px;
+  width: 60%;
+  max-width: 250px;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 1px solid #b6b6b6;
+}
+
+.Start button {
+  border: 2px solid #025157;
+  border-radius: 5px;
+  background-color: #025157;
+  text-align: center;
+  color: white;
+  margin-left: -10px;
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 6px 20px;
+
+}
+
+.Start input {
+  border: 2px solid #e3e3e3;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  Padding: 6px 20px;
+}
+
+.success-stories {
+    background-color: #a1d683;
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .success-stories .overview {
+    flex: 2;
+    padding-right: 100px;
+  }
+  
+  .success-stories .overview h2 {
+    font-family: "Alegreya", serif;
+    font-size: 51px;
+    line-height: 61px;
+    color: #025157;
+  }
+  
+  .success-stories .overview p {
+    color: #343434;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  
+  .success-stories .overview button {
+    font-size: 14px;
+    padding: 12px 12px 6px 12px;
+    border-radius: 8px;
     height: 45px;
-    font-family: sans-serif;
+    font-weight: 600;
+    margin-left: 0;
+  }
+  
+  .success-stories .overview img {
+    width: 500px;
+    max-width: 100%;
+  }
+
+  .card {
+    display: flex;
+    padding: 20px;
+    width: 350px;
+    height: 500px;
+  }
+
+  .company {
+    position: absolute;
+    top: -20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #f9da73;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+
+  .company img {
+    width: 70px;
+    height: 60px;
+  }
+
+  .cardresults {
+    align-items: center;
+    display: flex;
+    color: #828282;
+  }
+
+  .cardfooter button {
+    display: flex;
+    background-color: #025157;
+    border: none;
+    border-radius: 10px 10px;
+    height: 50px;
+    width: 140px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .cardfooter {
+    display: flex;
     align-items: center;
     
-}
-
-.navBox{
-    display: inline-table;
-    color: #025157;
-    font-size: 14px;
-
-}
-
-.frTrial {
-    display: inline-table;
-    padding-left: 14px;
-    padding-right: 14px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    border-radius: 5px;
-    border: 0;
-}
-
-.button {
-    display: inline-table;
-
-}
-
-.features > article {
-
-    width: 200px;
-    height: 200px;
-    background: #025157;
-    margin: 10px;
-
-}
-
-/*  @media {breakpoint} { 
-
-}
-*/
-@media {max-width: 1475px;} {
-
-    body {
-
-        background-color: yellow;
-    }
-
-}
-
-
-@media {max-width: 975px;} {
-
-    body {
-
-        background-color: red;
-    }
-
-}
-
-@media {max-width: 575px;} {
-
-    body {
-
-        background-color: blue;
-    }
-
-}
-
-@media {max-width: 375px;} {
-
-    body {
-
-        background-color: violet;
-    }
-
-}
-
-.main {
-
-    width: 575px;
-    background-color: aqua;
-    margin: auto 50px;
-    align-items: center;
-}
-
-main < img {
-    width: 300px
-    height: 300px
-
-}
-
-.article {
-    width: 70%;
-}
+  }
