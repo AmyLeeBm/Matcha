@@ -21,12 +21,7 @@ h1 {
     margin-bottom: 72px;
 }
 
-main {
-    margin-top: 285px;
-    text-align: center;
-}
-
-body {
+.body {
     background-color: #fffbf7;
     font-family: "Open Sans", sans-serif;
 }
@@ -56,19 +51,20 @@ body {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(3, 81, 77)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-.actions {
+.action {
     text-align: right;
     font-weight: 600;
     font-size: 14px;
 }
 
-.actions>* {
+.action>* {
     margin-right: 10px;
     margin-left: 10px;
 }
 
-.actions a {
+.action a {
     color: #67b54b;
+    text-decoration: none;
 }
 
 .action button {
@@ -79,6 +75,42 @@ body {
     padding: 15px 10px;
 }
 
+.main {
+    display: flex;
+    max-width: 100%;
+    margin-top: 285px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 70px;
+}
+
+.sub {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.main p {
+    width: 70%;
+}
+
+.platforms {
+    margin: 60px;
+}
+
+.platforms h5 {
+    color: #025157;
+    display: flex;
+    justify-content: center;
+}
 
 .faq {
     margin-top: 50px;

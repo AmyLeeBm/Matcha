@@ -39,8 +39,8 @@ header {
 /* investigar e intentar dejar los margenes del header como esta en matcha, en caso de ser necesario, investigar los displays */
 /* que es un display, que es dispolay inline, display block */
 
-body{
-    background-color: #fffbf7;
+.body {
+  background-color: #fffbf7;
 }
 
 .action button {
@@ -80,38 +80,8 @@ body{
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(3, 81, 77)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-.publi {
-    display: flex;
-    max-width: 70%;
-    margin: 100px auto;
-    align-items: center;
-    justify-content: center;
-}
-
-.video {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-video {
-  width: 500px;
-  height: 250px;
-}
-
-.video img {
-  margin-top: 20px;
-}
-
-.pubText h2 {
-  font-family: 'Alegreya', serif;
-  font-size: 40px;
-  color: #025157;
-  line-height: 48px;
-  
-}
-
 main {
+    max-width: 100%;
     margin: 300px 10px 20px;
     align-items: center;
     text-align: center;
@@ -127,6 +97,45 @@ main h1 {
 main .sub p {
   font-family:'Slabo 27px', serif;
   font-size: 20px;
+}
+
+.publi {
+    display: flex;
+    max-width: 100%;
+    margin: 100px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 70px;
+}
+
+video {
+  width: 500px;
+  height: 250px;
+}
+
+.video img {
+  margin-top: 20px;
+}
+
+.pubText {
+  width: 500px;
+  height: 250px;
+  margin-bottom: 150px;
+  max-width: 100%;
+}
+
+.pubText h2 {
+  font-family: 'Alegreya', serif;
+  font-size: 40px;
+  color: #025157;
+  line-height: 48px;
+  
 }
 
 .Try button{
@@ -246,14 +255,18 @@ main .sub p {
     line-height: 1.5;
     margin-bottom: 1rem;
   }
-  
+
   .success-stories .overview button {
-    font-size: 14px;
+    font-size: 16px;
     padding: 12px 12px 6px 12px;
     border-radius: 8px;
     height: 45px;
     font-weight: 600;
     margin-left: 0;
+    margin-bottom: 30px;
+    background-color: #025157;
+    color: #fff;
+    border: #025157;
   }
   
   .success-stories .overview img {
