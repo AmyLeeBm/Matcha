@@ -41,6 +41,7 @@ body {
 
 .navbar {
     background-color: #fffbf7;
+    font-weight: 500;
 }
 
 .navbar-light .nav-item .nav-link {
