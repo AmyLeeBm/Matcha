@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Alegreya:900%7COpen+Sans%7CSlabo+27px&display=swap");
+
+
+.body {
+    background-color: #fffbf7;
+  }
+
+.action>* {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.action {
+
+    a {
+        text-decoration: none;
+        color: #67b54b;
+    }
+
+    button {
+        background-color: #67b54b;
+        color: white;
+        border: none;
+        border-radius: 5px 5px;
+        padding: 15px 10px;
+    }
+}
+
+.navbar {
+    width: 100%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+    background-color: #fffbf7;
+}
+
+.container-fluid {
+    text-align: left;
+}
+
+.navbar-light .nav-item .nav-link {
+  color: #025157;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: #025157;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(3, 81, 77)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}  
+
+.top-features {
+    display: flex;
+    padding: 30px 0 65px;
+    margin-top: 350px;
+    font-family: 'Alegreya', serif;
+    text-align: center;
+    color: #025157;
+    font-weight: 700;
+}
+
+.feature__img {
+    img {
+        width: 100%;
+    }
+}
+
+.feature__title__anchor {
+
+    text-decoration: none;
+    color: inherit;
+    font-weight: 400;
+    font-size: 24px;
+  
+  
+    .feature__title {
+      margin-top: 50px;
+      font-weight: 500;
+      font-size: 24px;
+      font-family: 'Open Sans',sans-serif;
+      margin-bottom: 35px;
+      text-decoration: none;
+      text-shadow: #025157 1px 1px 2px;
+      transition: color .3s ease-in-out ;
+     }
+  
+     &:hover {
+      color:#67b54b;
+    }
+  
+    // transition-property: ;
+    // transition-duration: ;
+    // transition-timing-function: ;
+    // transition-delay: ;
+
+  }
+
+  .feature__cont{
+    p{
+      transition: color 0.5s ease-in-out ;
+        &:hover {
+      color: #025157;
+      font-family: Arial, Helvetica, sans-serif;
+      }
+    }
+  }  

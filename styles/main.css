@@ -1,0 +1,142 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Alegreya:900%7COpen+Sans%7CSlabo+27px&display=swap");
+.body {
+  background-color: #fffbf7;
+}
+
+.action > * {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.action a {
+  text-decoration: none;
+  color: #67b54b;
+}
+.action button {
+  background-color: #67b54b;
+  color: white;
+  border: none;
+  border-radius: 5px 5px;
+  padding: 15px 10px;
+}
+
+.navbar {
+  width: 100%;
+  text-align: center;
+  color: #025157;
+  font-weight: 500;
+  background-color: #fffbf7;
+}
+
+.container-fluid {
+  text-align: left;
+}
+
+.navbar-light .nav-item .nav-link {
+  color: #025157;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: #025157;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(3, 81, 77)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.top-features {
+  display: flex;
+  padding: 30px 0 65px;
+  margin-top: 350px;
+  font-family: "Alegreya", serif;
+  text-align: center;
+  color: #025157;
+  font-weight: 700;
+}
+
+.feature__img img {
+  width: 100%;
+}
+
+.feature__title__anchor {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 400;
+  font-size: 24px;
+}
+.feature__title__anchor .feature__title {
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 35px;
+  text-decoration: none;
+  text-shadow: #025157 1px 1px 2px;
+  transition: color 0.3s ease-in-out;
+}
+.feature__title__anchor:hover {
+  color: #67b54b;
+}
+
+.feature__cont p {
+  transition: color 0.5s ease-in-out;
+}
+.feature__cont p:hover {
+  color: #025157;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flecha {
+  margin: 0 auto;
+  height: 130px;
+  width: 130px;
+  margin-bottom: 35px;
+}
+.flecha .flecha-contenedor {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 65px;
+}
+.flecha .flecha-contenedor .flecha-animada {
+  position: absolute;
+  animation-name: up-and-down, alrededor;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  height: 130px;
+  width: 130px;
+}
+.flecha .flecha-contenedor .flecha-animada img {
+  width: 130px;
+  transform: rotate(-90deg);
+}
+@keyframes alrededor {
+  from {
+    left: -270px;
+  }
+  to {
+    left: 270px;
+  }
+}
+@keyframes up-and-down {
+  0% {
+    top: 0; /*Aqui inicia la animacion*/
+  }
+  25% {
+    top: -30px; /*Este es el punto donde alcanza la mitad del limite de los 60px, moviendose hacia abajo */
+  }
+  50% {
+    top: -60px; /*Este es el punto donde alcanza el limite de los 60px*/
+  }
+  75% {
+    top: -30px; /*Aquí termina la animación, ubicando el elemento en el punto de inicio*/
+  }
+  100% {
+    top: 0; /*Aquí termina la animación ubicando el elemento en el punto de arriba*/
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
