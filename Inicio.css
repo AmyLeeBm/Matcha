@@ -1,0 +1,86 @@
+
+
+.logoMak {
+    display: flex;
+    justify-content: center;   
+    height: 90px;
+    width: 500px;
+}
+
+.container-fluid  {
+    max-width: 100%;
+    background-color: #46b7a0;
+    height: 130px;
+    margin-top: -10px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.Container-main img{
+    max-width: 100%;
+    margin-top: 153px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 700px;
+    background-color: gray;
+}
+
+.Green1 {
+    max-width: 100%;
+    background-color: #86D8C6;
+    margin-top: 128px;
+    margin-bottom: 0;
+    height: 35px;
+}
+
+
+.Green1 a {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-left: 150px;   
+    font-weight: 400;   
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Green1 li{
+    list-style: none;
+    margin-top: -15px;
+}
+
+.Green2 {
+    max-width: 100%;
+    background-color: #A8F1E1;
+    margin-top: 163px;
+    height: 20px;
+}
+
+.MediaCont {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 300px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.MediaCont img{
+    margin: 10px;
+}
+
+.MediaCont li{
+    list-style: none;
+    width: 60px;
+    margin: 20px;
+}
+
+.footer {
+    max-width: 100%;
+    background-color: #A8F1E1;
+  }
